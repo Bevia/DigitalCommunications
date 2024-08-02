@@ -5,8 +5,13 @@
     g++ -std=c++17 ./QPSK/qpsk_modulation.cpp -o ./QPSK/qpsk_modulation.cpp -o qpsk_modulation 
     g++ -std=c++17 ./QPSK/qpsk_modulation.cpp -o qpsk_modulation
 #### To run the program, use this command:
-    ./qpsk
+    ./qpsk_modulation
 
+### python plot qpsk constellation
+python3 ./QPSK/qpsk_constellation.py
+
+### python modulate qpsk
+python3 ./QPSK/modulate_qpsk.py
 
 ## Introduction
 Quadrature Phase Shift Keying (QPSK) is a modulation scheme used in digital communications. It represents digital data by modulating the phase of a carrier signal, allowing the transmission of two bits per symbol. Here's a detailed explanation:
