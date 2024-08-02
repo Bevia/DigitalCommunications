@@ -1,4 +1,10 @@
 
+## How to run:
+    g++ ./QPSK/qpsk.cpp ./QPSK/qpsk.cpp -o iir 
+### To enable C++11, use the following command:
+    g++ -std=c++17 ./QPSK/qpsk.cpp -o ./QPSK/qpsk.cpp -o qpsk 
+#### To run the program, use this command:
+    ./qpsk
 
 
 ## Introduction

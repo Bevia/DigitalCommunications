@@ -1,7 +1,6 @@
 #include <iostream>
 #include <complex>
 #include <vector>
-#include <cmath>
 
 // Define the QPSK symbols using complex numbers
 const std::complex<double> QPSK_SYMBOLS[4] = {
