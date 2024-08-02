@@ -1,11 +1,9 @@
 
 ## How to run:
-    g++ ./QPSK/qpsk.cpp ./QPSK/qpsk.cpp -o iir 
-### To enable C++11, use the following command:
-    g++ -std=c++17 ./QPSK/qpsk_modulation.cpp -o ./QPSK/qpsk_modulation.cpp -o qpsk_modulation 
-    g++ -std=c++17 ./QPSK/qpsk_modulation.cpp -o qpsk_modulation
+### To enable C++17, use the following command:
+    g++ -std=c++17 ./QPSK/qpsk_modem.cpp -o qpsk_modem
 #### To run the program, use this command:
-    ./qpsk_modulation
+    ./qpsk_modem
 
 ### python plot qpsk constellation
 python3 ./QPSK/qpsk_constellation.py
