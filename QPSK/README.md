@@ -1,3 +1,7 @@
+
+
+
+## Introduction
 Quadrature Phase Shift Keying (QPSK) is a modulation scheme used in digital communications. It represents digital data by modulating the phase of a carrier signal, allowing the transmission of two bits per symbol. Here's a detailed explanation:
 
 ### Key Characteristics of QPSK:
