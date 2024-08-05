@@ -1,3 +1,16 @@
+## How to run:
+### To enable C++17, use the following command:
+    g++ -std=c++17 ./QAM/qam_modem.cpp -o qam_modem
+#### To run the program, use this command:
+    ./qam_modem
+
+### python plot qpsk constellation
+python3 ./QPSK/qam_constellation.py
+
+### python modulate qpsk
+python3 ./QPSK/modulate_qpsk.py
+
+# Theory
 Quadrature Amplitude Modulation (QAM) is a modulation scheme used in digital communications that combines two amplitude-modulated signals into a single channel, effectively increasing the efficiency of data transmission. Here are the key aspects of QAM:
 
 1. **Combination of Amplitude and Phase Modulation**:
