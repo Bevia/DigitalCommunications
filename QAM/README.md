@@ -5,10 +5,10 @@
     ./qam_modem
 
 ### python plot qpsk constellation
-python3 ./QPSK/qam_constellation.py
+python3 ./QAM/qam_constellation.py
 
 ### python modulate qpsk
-python3 ./QPSK/modulate_qpsk.py
+python3 ./QAM/modulate_qam.py
 
 # Theory
 Quadrature Amplitude Modulation (QAM) is a modulation scheme used in digital communications that combines two amplitude-modulated signals into a single channel, effectively increasing the efficiency of data transmission. Here are the key aspects of QAM:
