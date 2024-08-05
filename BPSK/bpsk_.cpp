@@ -15,7 +15,7 @@ const double NOISE_STD_DEV = 0.1;   // Standard deviation of Gaussian noise
 std::vector<int> generateBinaryData(int length) {
     std::vector<int> data(length);
     std::random_device rd;
-    std::mt19937 gen(rd());
+    std::mt19937 gen(rd());  //is an instantiation of the Mersenne Twister random number generator.
     std::uniform_int_distribution<> dis(0, 1);
     for (int i = 0; i < length; ++i) {
         data[i] = dis(gen);
