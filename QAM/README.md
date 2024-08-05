@@ -22,3 +22,14 @@ Quadrature Amplitude Modulation (QAM) is a modulation scheme used in digital com
    - High-order QAM schemes require a higher Signal-to-Noise Ratio (SNR) for accurate demodulation.
 
 In summary, QAM is a powerful modulation technique used in digital communications that allows for high data rates by combining amplitude and phase modulation. Its effectiveness depends on the balance between achieving higher data rates and maintaining signal integrity in the presence of noise.
+
+## Code Explanation:
+
+### QAM Constellation Generation:
+The generateQAMConstellation function creates the constellation points for 16-QAM.
+
+### Modulation:
+The modulate function maps the input bits to the QAM symbols using the generated constellation points.
+
+### Demodulation:
+The demodulate function retrieves the original bits from the received QAM symbols by finding the closest constellation point.
