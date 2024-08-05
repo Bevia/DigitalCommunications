@@ -1,4 +1,16 @@
 
+## How to run:
+### To enable C++17, use the following command:
+    g++ -std=c++17 ./BPSK/bpsk_.cpp -o bpsk_
+#### To run the program, use this command:
+    ./bpsk_
+
+### python plot qpsk constellation
+python3 ./BPSK/bpsk_constellation.py
+
+### python modulate qpsk
+python3 ./BPSK/modulate_bpsk.py
+
 # Theory
 Binary Phase Shift Keying (BPSK) is a type of digital modulation scheme used in digital communications. It is one of the simplest forms of phase modulation and is widely used due to its robustness and simplicity. Here are the key features and concepts of BPSK:
 
