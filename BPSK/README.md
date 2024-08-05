@@ -51,3 +51,22 @@ Binary Phase Shift Keying (BPSK) is a type of digital modulation scheme used in 
   - Used in some wireless local area networks (WLANs) and other wireless communication standards.
 
 In summary, BPSK is a fundamental digital modulation technique known for its simplicity and robustness, making it suitable for a wide range of communication applications.
+
+# Code Explanation
+
+### Binary Data Generation:
+The generateBinaryData function creates a random binary data sequence.
+
+### BPSK Modulation:
+The bpskModulate function maps each binary bit to a phase shift (0 or 180 degrees) and generates a cosine wave for each bit. The modulated signal is represented as a complex vector.
+
+### Add Noise:
+The addNoise function adds Gaussian noise to the modulated signal to simulate a real communication channel.
+
+### BPSK Demodulation:
+The bpskDemodulate function correlates the received signal with a reference cosine wave to determine the original binary data.
+
+### Main Function:
+The main function ties everything together: it generates binary data, modulates it, adds noise, demodulates the received signal, and prints the results.
+
+This example demonstrates the basic concepts of BPSK modulation and demodulation in a straightforward manner using modern C++.
