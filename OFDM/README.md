@@ -22,6 +22,8 @@ Plot Constellation: plot_constellation plots the complex symbols on a 2D plane t
 ### python modulate ofdm
 python3 ./OFDM/modulate_ofdm.py
 
+make sure you install: pip install scipy
+
 you can modulate data to see the effects of OFDM. We'll expand the previous example by including the steps for OFDM modulation. Specifically, we'll perform the following steps:
 
     Generate random data bits.
