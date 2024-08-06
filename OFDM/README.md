@@ -30,3 +30,10 @@ you can modulate data to see the effects of OFDM. We'll expand the previous exam
     Perform IFFT to convert the frequency domain symbols to time domain.
     Add a cyclic prefix.
     Plot the time domain signal and the constellation diagram.
+
+    This code demonstrates the basic process of creating an OFDM signal. Here's a step-by-step explanation:
+
+    Generate Random Data: A function generates random bits.
+    QPSK Modulation: The random bits are modulated using QPSK, converting bits into complex symbols.
+    Perform IFFT: The IFFT is applied to the QPSK symbols to create the OFDM time-domain signal.
+    Add Cyclic Prefix: A cyclic prefix is added to the beginning of each OFDM symbol to mitigate inter-symbol interference (ISI).
