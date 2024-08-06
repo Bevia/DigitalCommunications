@@ -12,6 +12,12 @@ g++ -std=c++11 -o ofdm_ ./OFDM/ofdm_.cpp -lfftw3 -L/opt/homebrew/Cellar/fftw/3.3
 ## OFDM Theory
 This example focuses on the basic steps of OFDM: generating random data, performing the Inverse Fast Fourier Transform (IFFT) to create OFDM symbols, and adding a cyclic prefix for transmission. This example uses the FFTW library for performing the IFFT.
 
+### Orthogonal Frequency Division Multiplexing (OFDM):
+
+Description: OFDM divides the data stream into several parallel sub-streams, each modulated by a different carrier frequency. 
+These sub-carriers are orthogonal to each other, minimizing interference.
+Applications: Widely used in modern broadband communications, including Wi-Fi, LTE, and digital television.
+
 ### python plot ofdm constellation
 python3 ./OFDM/ofdm_constellation.py
 
