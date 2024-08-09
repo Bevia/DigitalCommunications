@@ -45,3 +45,29 @@ you can modulate data to see the effects of OFDM. We'll expand the previous exam
     QPSK Modulation: The random bits are modulated using QPSK, converting bits into complex symbols.
     Perform IFFT: The IFFT is applied to the QPSK symbols to create the OFDM time-domain signal.
     Add Cyclic Prefix: A cyclic prefix is added to the beginning of each OFDM symbol to mitigate inter-symbol interference (ISI).
+
+## OFDM theoretical introduction
+Orthogonal Frequency-Division Multiplexing (OFDM) is a digital multi-carrier modulation method used widely in broadband communications across various standards, including Wi-Fi, LTE, and digital television broadcasting. The key advantages and features of OFDM are rooted in its ability to cope with severe channel conditions—like multipath propagation and frequency-selective fading—without complex equalization filters. Here's a simple theoretical introduction to OFDM:
+
+### 1. Concept of OFDM:
+OFDM works by splitting the data stream into multiple smaller streams that are transmitted simultaneously at different frequencies. This approach utilizes the spectrum efficiently and increases the data rate.
+
+### 2. Orthogonality:
+The core principle of OFDM is the orthogonality of the sub-carriers. This means that the sub-carriers are spaced in such a way that their peak points align with the null points of the other sub-carriers, thus minimizing interference between them. This spacing allows for the overlap of sub-carriers in the frequency domain, leading to efficient use of bandwidth.
+
+### 3. Structure of OFDM Signal:
+- **Sub-carriers**: The total bandwidth is divided into several orthogonal sub-carriers, each carrying a part of the user's data.
+- **IFFT/FFT**: Inverse Fast Fourier Transform (IFFT) is used at the transmitter to modulate the data onto the sub-carriers. At the receiver, Fast Fourier Transform (FFT) is used to demodulate the data.
+  
+### 4. Guard Interval and Cyclic Prefix:
+To reduce interference and further enhance robustness against timing errors and multipath effects, OFDM systems incorporate a guard interval between symbols, often filled with a cyclic prefix. The cyclic prefix is a copy of the end of the symbol that is appended to its beginning. This redundancy helps in combating the intersymbol interference (ISI) caused by multipath propagation.
+
+### 5. Benefits of OFDM:
+- **Efficient Spectrum Use**: Due to the overlapping of sub-carriers, OFDM is very bandwidth efficient.
+- **Robustness to Echoes and Interference**: The cyclic prefix helps in handling echoes and interference from various paths in a multipath environment.
+- **Simplified Equalizers**: Due to the use of FFT and the cyclic prefix, OFDM systems can use simple frequency-domain equalizers, which are less complex compared to time-domain equalizers used in traditional single-carrier systems.
+
+### 6. Applications:
+OFDM has been adopted in many wireless and wired communication standards, such as IEEE 802.11 (Wi-Fi), LTE (4G), and ADSL broadband Internet. It's favored for its efficiency and performance in environments where channel conditions can be challenging.
+
+Understanding OFDM requires a grasp of Fourier Transform principles and knowledge of signal processing techniques, but the above points provide a basic theoretical introduction.
