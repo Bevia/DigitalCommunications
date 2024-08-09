@@ -1,4 +1,12 @@
-In telecommunications, several modulation schemes are commonly used beyond Quadrature Phase Shift Keying (QPSK), Binary Phase Shift Keying (BPSK), and Quadrature Amplitude Modulation (QAM). Some of the main modulation schemes include:
+Digital telecommunications modulation is a process used to encode digital information (such as data, voice, or video) onto a carrier signal for transmission over a communication channel. In digital modulation, the carrier signal—typically a high-frequency sine wave—is altered in a way that represents the digital data. The three primary aspects of the carrier that can be modified are:
+
+1. **Amplitude** (Amplitude Shift Keying, ASK): The amplitude (strength) of the carrier wave is varied in accordance with the digital data.
+2. **Frequency** (Frequency Shift Keying, FSK): The frequency (rate of oscillation) of the carrier wave is altered based on the digital information.
+3. **Phase** (Phase Shift Keying, PSK): The phase (position) of the carrier wave is shifted to represent the digital data.
+
+More advanced forms of digital modulation combine these basic techniques. For example, Quadrature Amplitude Modulation (QAM) combines amplitude and phase modulation to increase the data rate.
+
+Digital modulation is essential in modern communication systems, enabling efficient and reliable transmission of information over various media, including radio, fiber optics, and wireless networks.
 
 1. **Frequency Shift Keying (FSK)**:
    - **Description**: FSK modulates the frequency of the carrier signal to represent data. The simplest form, Binary FSK (BFSK), uses two frequencies to represent binary 0 and 1.
