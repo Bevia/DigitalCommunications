@@ -1,3 +1,9 @@
+## How to run:
+    g++ ./PAM/pam_.cpp ./PAM/pam_.cpp -o pam_ 
+### To enable C++11, use the following command:
+    g++ -std=c++11 ./PAM/pam_.cpp -o ./PAM/pam_.cpp -o pam_ 
+#### To run the program, use this command:
+    ./pam_
 
 
 ## PAM Theory
