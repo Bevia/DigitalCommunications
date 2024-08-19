@@ -5,7 +5,9 @@
     g++ -std=c++11 ./DSSS/dsss_.cpp -o ./DSSS/dsss_.cpp -o dsss_ 
 #### To run the program, use this command:
     ./dsss_
-
+    
+### python modulate ofdm
+python3 ./DSSS/plot_dss.py
 
 ## DSSS Theory
 Direct Sequence Spread Spectrum (DSSS) is a technique used in telecommunications where the data signal is spread over a wider bandwidth by multiplying it with a pseudo-random noise (PN) sequence, also known as a spreading code. This increases the signal's resistance to interference and eavesdropping.
