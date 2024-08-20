@@ -18,7 +18,6 @@ def pam_modulation(data, M):
             modulated_signal.append(2*bit - 1)  # Maps 0 to -1, 1 to +1
         else:
             # For higher-order PAM, map based on PAM levels
-            # Map bits to a symbol using Gray coding or standard mapping
             # Example for 4-PAM: 0 -> -3, 1 -> -1, 2 -> 1, 3 -> 3
             raise NotImplementedError("Only binary (2-PAM) is currently implemented.")
     
@@ -27,7 +26,7 @@ def pam_modulation(data, M):
 # Plot the PAM signal
 def plot_pam_signal(signal, title):
     plt.figure(figsize=(10, 4))
-    plt.stem(signal, use_line_collection=True)
+    plt.stem(signal)
     plt.title(title)
     plt.xlabel('Symbol Index')
     plt.ylabel('Amplitude')
