@@ -5,7 +5,7 @@
 #### To run the program, use this command:
     ./pam_
 ### python modulate ofdm
-python3 ./DSSS/plot_dss.py
+python3 ./PAM/plot_pam.py
 
 
 ## PAM Theory
