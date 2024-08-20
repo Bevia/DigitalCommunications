@@ -4,6 +4,8 @@
     g++ -std=c++11 ./PAM/pam_.cpp -o ./PAM/pam_.cpp -o pam_ 
 #### To run the program, use this command:
     ./pam_
+### python modulate ofdm
+python3 ./DSSS/plot_dss.py
 
 
 ## PAM Theory
